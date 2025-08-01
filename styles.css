@@ -9,8 +9,8 @@
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
-    color: #1a1a1a;
-    background-color: #ffffff;
+    color: #e5e5e5;
+    background-color: #0a0a0a;
 }
 
 .container {
@@ -24,11 +24,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(15, 15, 15, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 .nav-container {
@@ -53,13 +53,13 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #1a1a1a;
+    color: #e5e5e5;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #6366f1;
+    color: #818cf8;
 }
 
 /* Buttons */
@@ -87,18 +87,18 @@ body {
 
 .btn-secondary {
     background: transparent;
-    color: #1a1a1a;
-    border: 1px solid #e5e5e5;
+    color: #e5e5e5;
+    border: 1px solid #374151;
 }
 
 .btn-secondary:hover {
-    background: #f5f5f5;
+    background: #374151;
 }
 
 /* Hero Section */
 .hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #1e1b4b 100%);
     color: white;
 }
 
@@ -147,7 +147,7 @@ body {
 /* Who is Outskill for */
 .who-for {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #111827;
 }
 
 .section-header {
@@ -167,7 +167,7 @@ body {
 .section-header h2 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1a1a1a;
+    color: #e5e5e5;
 }
 
 .experience-grid {
@@ -178,11 +178,12 @@ body {
 }
 
 .experience-card {
-    background: white;
+    background: #1f2937;
     padding: 2.5rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     text-align: center;
+    border: 1px solid #374151;
 }
 
 .experience-card h3 {
@@ -224,11 +225,12 @@ body {
 }
 
 .course-card {
-    background: white;
+    background: #1f2937;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    border: 1px solid #374151;
 }
 
 .course-card:hover {
@@ -296,7 +298,7 @@ body {
 /* Quotes Section */
 .quotes {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #111827;
 }
 
 .quote-grid {
@@ -306,10 +308,11 @@ body {
 }
 
 .quote-card {
-    background: white;
+    background: #1f2937;
     padding: 2.5rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid #374151;
 }
 
 .quote-icon {
@@ -321,7 +324,7 @@ body {
 blockquote {
     font-size: 1.125rem;
     font-style: italic;
-    color: #1a1a1a;
+    color: #e5e5e5;
     margin-bottom: 1.5rem;
 }
 
@@ -332,7 +335,7 @@ cite {
 cite strong {
     display: block;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #e5e5e5;
 }
 
 cite span {
@@ -429,7 +432,7 @@ cite span {
 /* Testimonials */
 .testimonials {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #111827;
 }
 
 .heart {
@@ -444,10 +447,11 @@ cite span {
 }
 
 .testimonial-card {
-    background: white;
+    background: #1f2937;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid #374151;
 }
 
 .testimonial-video {
@@ -520,7 +524,7 @@ cite span {
 /* Investors Section */
 .investors {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #111827;
 }
 
 .investors-grid {
@@ -548,10 +552,11 @@ cite span {
 }
 
 .angel-card {
-    background: white;
+    border: 1px solid #374151;
+    background: #1f2937;
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
@@ -604,7 +609,7 @@ cite span {
 /* Newsletter */
 .newsletter {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #111827;
 }
 
 .newsletter-content {
@@ -632,7 +637,9 @@ cite span {
 
 .newsletter-form input {
     padding: 12px 16px;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #374151;
+    background: #1f2937;
+    color: #e5e5e5;
     border-radius: 8px;
     font-size: 16px;
     width: 300px;
